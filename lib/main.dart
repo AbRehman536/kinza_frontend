@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:kinza_frontend/body.dart';
 
 import 'app_bar.dart';
+import 'floating_action_button.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +18,7 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       theme: ThemeData(
       ),
-      home: AppBarDemo(),
+      home: BodyDemo(),
     );
   }
 }
