@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:kinza_frontend/body.dart';
 import 'package:kinza_frontend/expand_flexible.dart';
 import 'package:kinza_frontend/images.dart';
+import 'package:kinza_frontend/instagram_post.dart';
+import 'package:kinza_frontend/list_tile.dart';
 import 'package:kinza_frontend/nested_row_column.dart';
 import 'package:kinza_frontend/text_fileds.dart';
 
@@ -22,7 +24,7 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       theme: ThemeData(
       ),
-      home: TextFieldsDemo(),
+      home: InstagramPost(),
     );
   }
 }
