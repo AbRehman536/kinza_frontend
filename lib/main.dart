@@ -6,6 +6,7 @@ import 'package:kinza_frontend/instagram_post.dart';
 import 'package:kinza_frontend/list_tile.dart';
 import 'package:kinza_frontend/login_validation.dart';
 import 'package:kinza_frontend/nested_row_column.dart';
+import 'package:kinza_frontend/pageview.dart';
 import 'package:kinza_frontend/single_selection.dart';
 import 'package:kinza_frontend/text_fileds.dart';
 
@@ -27,7 +28,7 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       theme: ThemeData(
       ),
-      home: LoginValidation(),
+      home: OnBoardingScreen(),
     );
   }
 }
