@@ -16,26 +16,21 @@ class _GridviewDemoState extends State<GridviewDemo> {
         backgroundColor: Colors.blue,
         foregroundColor: Colors.white,
       ),
-      body: GridView.builder(
-          gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-              crossAxisCount: 2,
-              crossAxisSpacing: 20,
-            mainAxisSpacing: 20,
-            mainAxisExtent: 200,
+      body: Column(
+        children: [
+          Text("Grid View Demo",style: TextStyle(fontSize: 30, fontWeight: FontWeight.w900),),
+          Expanded(
+            child: GridView.builder(
+              gridDelegate: SliverGridDelegateWithMaxCrossAxisExtent(
+                  crossAxisSpacing: 20, mainAxisSpacing: 20, mainAxisExtent: 200, maxCrossAxisExtent: 300
+              ),
+              itemCount: 10,
+              itemBuilder: (BuildContext context, int index) {
+                return Container(color: Colors.red,);
+              }, ),
           ),
-        itemCount: 10,
-        itemBuilder: (BuildContext context, int index) {
-            return Container(
-              color: Colors.red,
-              child: Center(child: Column(
-                children: [
-                  Icon(Icons.account_balance_outlined),
-                  Text("Blue"),
-                ],
-              ),),
-            );
-        },
-          ),
+        ],
+      )
     );
   }
 }
