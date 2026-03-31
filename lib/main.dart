@@ -10,6 +10,7 @@ import 'package:kinza_frontend/login_validation.dart';
 import 'package:kinza_frontend/nested_row_column.dart';
 import 'package:kinza_frontend/pageview.dart';
 import 'package:kinza_frontend/single_selection.dart';
+import 'package:kinza_frontend/tab_bar.dart';
 import 'package:kinza_frontend/text_fileds.dart';
 
 import 'app_bar.dart';
@@ -30,7 +31,7 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       theme: ThemeData(
       ),
-      home: DialogBoxDemo(),
+      home: TabBarDemo(),
     );
   }
 }
