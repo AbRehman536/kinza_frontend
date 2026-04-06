@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:kinza_frontend/body.dart';
 import 'package:kinza_frontend/bottom_bar.dart';
+import 'package:kinza_frontend/date_time_picker.dart';
 import 'package:kinza_frontend/dialog_box.dart';
 import 'package:kinza_frontend/expand_flexible.dart';
 import 'package:kinza_frontend/gridview.dart';
@@ -32,7 +33,7 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       theme: ThemeData(
       ),
-      home: BottomBarDemo(),
+      home: DateTimePickerDemo(),
     );
   }
 }
