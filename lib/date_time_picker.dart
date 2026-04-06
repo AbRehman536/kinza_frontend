@@ -16,7 +16,7 @@ class _DateTimePickerDemoState extends State<DateTimePickerDemo> {
     return Scaffold(
       appBar:
       AppBar(
-        title: Text("Select Date & Time"),
+        title: Text(" Date & Time"),
       ),
       body: Column(
         children: [
