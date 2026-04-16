@@ -15,6 +15,7 @@ import 'package:kinza_frontend/pageview.dart';
 import 'package:kinza_frontend/passing_parameters/screen_a.dart';
 import 'package:kinza_frontend/provider/screen_1.dart';
 import 'package:kinza_frontend/provider/user_provider.dart';
+import 'package:kinza_frontend/settings.dart';
 import 'package:kinza_frontend/single_selection.dart';
 import 'package:kinza_frontend/tab_bar.dart';
 import 'package:kinza_frontend/text_fileds.dart';
@@ -42,7 +43,7 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       theme: ThemeData(
       ),
-      home: Screen1(),
+      home: SettingsDemo(),
     );
   }
 }
