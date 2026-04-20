@@ -4,6 +4,7 @@ import 'package:kinza_frontend/bottom_bar.dart';
 import 'package:kinza_frontend/date_time_picker.dart';
 import 'package:kinza_frontend/dialog_box.dart';
 import 'package:kinza_frontend/expand_flexible.dart';
+import 'package:kinza_frontend/google_map.dart';
 import 'package:kinza_frontend/gridview.dart';
 import 'package:kinza_frontend/images.dart';
 import 'package:kinza_frontend/instagram_post.dart';
@@ -17,6 +18,7 @@ import 'package:kinza_frontend/provider/screen_1.dart';
 import 'package:kinza_frontend/provider/user_provider.dart';
 import 'package:kinza_frontend/settings.dart';
 import 'package:kinza_frontend/single_selection.dart';
+import 'package:kinza_frontend/slider.dart';
 import 'package:kinza_frontend/tab_bar.dart';
 import 'package:kinza_frontend/text_fileds.dart';
 import 'package:provider/provider.dart';
@@ -43,7 +45,7 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       theme: ThemeData(
       ),
-      home: SettingsDemo(),
+      home: GoogleMapDemo(),
     );
   }
 }

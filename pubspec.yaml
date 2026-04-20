@@ -38,6 +38,8 @@ dependencies:
   intl: ^0.20.2
   provider:
   pinput:
+  carousel_slider: ^5.0.0
+  google_maps_flutter:
 
 
 dev_dependencies:
