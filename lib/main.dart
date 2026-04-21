@@ -9,6 +9,7 @@ import 'package:kinza_frontend/gridview.dart';
 import 'package:kinza_frontend/images.dart';
 import 'package:kinza_frontend/instagram_post.dart';
 import 'package:kinza_frontend/list_tile.dart';
+import 'package:kinza_frontend/login_project.dart';
 import 'package:kinza_frontend/login_validation.dart';
 import 'package:kinza_frontend/menu.dart';
 import 'package:kinza_frontend/nested_row_column.dart';
@@ -45,7 +46,7 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       theme: ThemeData(
       ),
-      home: GoogleMapDemo(),
+      home: LoginProject(),
     );
   }
 }
